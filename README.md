@@ -11,3 +11,8 @@ ja.wordpress.org の公式キャラクター「わぷー（Wapuu）」の著作�
 [わぷー（Wapuu）](http://ja.wordpress.org/about-wp-ja/wapuu/)
 
 [わぷー（Wapuu）　svgファイル](https://github.com/jawordpressorg/wapuu)
+
+***
+####Contributors
+
+Rie Seguchi, Kojiro Fukazawa, Muga Komagata, Chiharu Nagatomi, Naoko Tokumoto, nipper-onside
