@@ -2,11 +2,17 @@
 わぷーページ追加用のスタイルシート。
 */
 
-.wapuu-archive .inner {
+#forkme_banner {
+    padding: 10px 20px;
+    background-image: none;
+    background-color: #0090ff;
+}
+
+.inner {
     max-width: 700px;
 }
 
-.wapuu-archive #main_content {
+#main_content {
     width: 100%;
     overflow: auto;
 }

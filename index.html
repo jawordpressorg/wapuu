@@ -4,11 +4,12 @@
     <head>
         <meta charset='utf-8' />
         <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-        <meta name="description" content="Wapuu : わぷー元画像データと派生物" />
+        <meta name="description" content="Wapuu : わぷーアーカイブ" />
 
         <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/additional.css">
 
-        <title>Wapuu</title>
+        <title>わぷーアーカイブ</title>
     </head>
 
     <body>
@@ -16,78 +17,52 @@
         <!-- HEADER -->
         <div id="header_wrap" class="outer">
             <header class="inner">
-                <a id="forkme_banner" href="https://github.com/jawordpressorg/wapuu">View on GitHub</a>
+                <a id="forkme_banner" href="faq.html">わぷーFAQ</a>
 
-                <h1 id="project_title">Wapuu</h1>
-                <h2 id="project_tagline">わぷー元画像データと派生物</h2>
+                <h1 id="project_title">わぷーアーカイブ</h1>
 
-                <section id="downloads">
-                    <a class="zip_download_link" href="https://github.com/jawordpressorg/wapuu/zipball/master">Download this project as a .zip file</a>
-                    <a class="tar_download_link" href="https://github.com/jawordpressorg/wapuu/tarball/master">Download this project as a tar.gz file</a>
-                </section>
             </header>
         </div>
 
         <!-- MAIN CONTENT -->
         <div id="main_content_wrap" class="outer">
             <section id="main_content" class="inner">
-                <h2>
-                    <a name="%E3%82%8F%E3%81%B7%E3%83%BC%E3%81%A8%E3%81%AF" class="anchor" href="#%E3%82%8F%E3%81%B7%E3%83%BC%E3%81%A8%E3%81%AF"><span class="octicon octicon-link"></span></a>「わぷー」とは?</h2>
-
-                <p>「わぷー（Wapuu）」は、ja.wordpress.org の公式キャラクターです。</p>
-
-                <ul>
-                    <li><a href="http://ja.wordpress.org/about-wp-ja/wapuu/">WordPress › 日本語 « 日本公式キャラクター「わぷー」</a></li>
-                </ul>
-
-                <h2>
-                    <a name="%E3%82%8F%E3%81%B7%E3%83%BC%E3%81%AE%E7%94%BB%E5%83%8F%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB" class="anchor" href="#%E3%82%8F%E3%81%B7%E3%83%BC%E3%81%AE%E7%94%BB%E5%83%8F%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB"><span class="octicon octicon-link"></span></a>わぷーの元画像ファイル
-                </h2>
-
-                <ul>
-                    <li><a href="https://github.com/jawordpressorg/wapuu">SVG 形式ファイル (Github。「ZIP」というボタンをクリックしてダウンロード)</a></li>
-                    <li><a href="http://ja.wordpress.org/files/2011/09/wapuu.png">PNG 画像（378×382 px）</a></li>
-                    <li><a href="http://ja.wordpress.org/files/2012/12/wapuu.pdf">ベクター形式 PDF ファイル</a></li>
-                </ul>
-
-                <h2>わぷーのプルリクの送り方</h2>
-
-                <ol>
-                    <li>Githubの「わぷー」のリポジトリをフォークします。すでにフォーク済み、clone済みの場合は「3」へ。
-
-                        <ul>
-                            <li><a href="https://github.com/jawordpressorg/wapuu">https://github.com/jawordpressorg/wapuu</a></li>
-                        </ul>
-                    </li>
-                    <li>フォークした <em>自分の</em> リポジトリをローカルにcloneします
-
-                        <ul>
-                            <li>例: $ git clone <a href="mailto:git@github.com">git@github.com</a>:tekapo/wapuu.git </li>
-                        </ul>
-                    </li>
-                    <li>フォーク、clone済みの場合は元のリポジトリに追従します
-
-                        <ul>
-                            <li><a href="http://qiita.com/xtetsuji/items/555a1ef19ed21ee42873">http://qiita.com/xtetsuji/items/555a1ef19ed21ee42873</a></li>
-                        </ul>
-                    </li>
-                    <li>gh-pagesブランチをcheckoutします。
-
-                        <ul>
-                            <li>$ git checkout gh-pages</li>
-                        </ul>
-                    </li>
-                    <li>wapuu-archive/imagesフォルダー内に追加したい派生版わぷーの画像を入れてcommit、pushします。</li>
-                    <li>自分のGithubページからプルリクエストを送ります</li>
-                </ol>
-
-                <h2>
-                    <a name="%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9" class="anchor" href="#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9"><span class="octicon octicon-link"></span></a>ライセンス
-                </h2>
-
-                <p>WordPress ソフトウェアと同じく GPL バージョン 2 またはそれ以降の互換ライセンスとなり、プラグインやテーマ内での使用も可能です。</p>
-
-                <p>ただし、著作権はキャラクター作成者のカネウチカズコさんが保有します。</p>
+                <!--Each image start-->
+                <div class="wapuu-each">
+                    <a href="http://example.com">
+                        <img src="wapuu-archive/tonkotsu-wapuu.png" alt="">
+                    </a>
+                    <div class="wapuu-name">なまえ: とんこつわぷー</div>
+                    <div class="wapuu-author">さくしゃ: カネウチカズコ</div>
+                </div>
+                <!--Each image end-->
+                <!--Each image start-->
+                <div class="wapuu-each">
+                    <a href="http://example.com">
+                        <img src="wapuu-archive/tonkotsu-wapuu.png" alt="">
+                    </a>
+                    <div class="wapuu-name">なまえ: とんこつわぷー</div>
+                    <div class="wapuu-author">さくしゃ: カネウチカズコ</div>
+                </div>
+                <!--Each image end-->
+                <!--Each image start-->
+                <div class="wapuu-each">
+                    <a href="http://example.com">
+                        <img src="wapuu-archive/tonkotsu-wapuu.png" alt="">
+                    </a>
+                    <div class="wapuu-name">なまえ: とんこつわぷー</div>
+                    <div class="wapuu-author">さくしゃ: カネウチカズコ</div>
+                </div>
+                <!--Each image end-->
+                <!--Each image start-->
+                <div class="wapuu-each">
+                    <a href="http://example.com">
+                        <img src="wapuu-archive/canvas-wapuu.png" alt="">
+                    </a>
+                    <div class="wapuu-name">なまえ: カンバスわぷー</div>
+                    <div class="wapuu-author">さくしゃ: たい</div>
+                </div>
+                <!--Each image end-->
             </section>
         </div>
 
@@ -98,8 +73,6 @@
                 <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
             </footer>
         </div>
-
-
 
     </body>
 </html>
