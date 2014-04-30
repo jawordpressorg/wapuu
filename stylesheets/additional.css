@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/*
+わぷーページ追加用のスタイルシート。
+*/
+#forkme_banner {
+  padding: 10px 20px;
+  background-image: none;
+  background-color: #0090ff;
+}
+
+.inner {
+  max-width: 700px;
+}
+
+#main_content {
+  width: 100%;
+  overflow: auto;
+}
+#main_content .wapuu-each:nth-child(even) {
+  float: right;
+}
+
+.wapuu-each {
+  float: left;
+  height: 500px;
+}
+.wapuu-each img {
+  width: 300px;
+  border: none;
+  box-shadow: none;
+}
