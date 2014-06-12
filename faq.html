@@ -72,8 +72,25 @@
                             <li>$ git checkout gh-pages</li>
                         </ul>
                     </li>
-                    <li>わぷーアーカイブに追加するための画像、PNG、300x330px、背景透過を作成し、wapuu-archiveフォルダーに入れます。</li>
-                    <li>wapuu-archiveフォルダー内に追加したい派生版わぷーの画像を入れてcommit、pushします。</li>
+                    <li>わぷーアーカイブに追加するための画像を以下のフォーマットで作成し、wapuu-archiveフォルダーに追加します。
+                        <ul>
+                            <li>ファイル形式: PNG</li>
+                            <li>大きさと背景: 300x330px、背景透過</li>
+                            <li>ファイル名: 任意の半角英数字-wapuu.png (例: tonkotsu-wapuu.png)</li>
+                        </ul>
+                    <li>index.htmlの一番最後の<code>&lt;!--Each image end--&gt;</code>下に以下を追加します。
+                        <pre><code>&lt;!--Each image start--&gt;
+&lt;div class="wapuu-each"&gt;
+&lt;a href="http://example.com"&gt;
+&lt;img src="wapuu-archive/XXXXXXX-wapuu.png" alt=""&gt;
+&lt;/a&gt;
+&lt;div class="wapuu-name"&gt;なまえ: XXXXXXわぷー&lt;/div&gt;
+&lt;div class="wapuu-author"&gt;さくしゃ: XXXXXX&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Each image end--&gt;
+</code></pre>
+                    </li>
+                    <li>commit、pushします。</li>
                     <li>自分のGithubページからプルリクエストを送ります</li>
                 </ol>
 
