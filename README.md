@@ -17,4 +17,4 @@ This is the SVG file of "わぷー(Wapuu)".
 "わぷー(Wapuu)" was designed by [Kazuko Kaneuchi](http://blog.cgfm.jp/mutsuki/) under GPL v2 license or any later version.
 
 - [Wapuu arichive page](http://jawordpressorg.github.io/wapuu/)
-- [Wapuu FAQ](http://jawordpressorg.github.io/wapuu/faq_ena.html)
+- [Wapuu FAQ](http://jawordpressorg.github.io/wapuu/faq_en.html)
