@@ -1,7 +1,9 @@
-wapuu
+Wapuu (Nara version)
 =====
 
-わぷーのSVGファイルです。
+Modified Wapuu to the style hugging Shika-senbei for WPers of Nara.
+
+鹿せんべいを抱えた奈良のわぷーのSVGファイルです。
 
 ライセンスは WordPress ソフトウェアと同じく GPL バージョン 2 またはそれ以降の互換ライセンスとなり、プラグインやテーマ内での使用も可能です。
 
