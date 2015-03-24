@@ -8,7 +8,8 @@ wapuu
 ただし、著作権はキャラクター作成者のカネウチカズコさんが保有します。
 
 - [わぷーアーカイブページ](http://jawordpressorg.github.io/wapuu/)
-- [わぷーFAQ](http://jawordpressorg.github.io/wapuu/faq.html)
+- [わぷー FAQ](http://jawordpressorg.github.io/wapuu/faq.html)
+- [わぷーアーカイブに追加する方法](http://jawordpressorg.github.io/wapuu/faq.html#add-archive)
 
 ------
 
@@ -18,3 +19,4 @@ This is the SVG file of "わぷー(Wapuu)".
 
 - [Wapuu arichive page](http://jawordpressorg.github.io/wapuu/)
 - [Wapuu FAQ](http://jawordpressorg.github.io/wapuu/faq_en.html)
+- [How To Add To Wapuu's Archives By Pull Request](http://jawordpressorg.github.io/wapuu/faq_en.html#add-archive)
