@@ -30,7 +30,7 @@
                 <h2>
                     <a name="%E3%82%8F%E3%81%B7%E3%83%BC%E3%81%A8%E3%81%AF" class="anchor" href="#%E4%82%8F%E3%81%B7%E3%83%BC%E3%81%A8%E3%81%AF"><span class="octicon octicon-link"></span></a>What is "Wapuu"?</h2>
 
-                <p>わぷー（Wapuu) is a official mascot from ja.wordpress.org.</p>
+                <p>わぷー（Wapuu) is the official mascot of ja.wordpress.org.</p>
 
                 <ul>
                     <li><a href="http://ja.wordpress.org/about-wp-ja/wapuu/">WordPress › Japanese « Japanese team's Official Mascot "Wapuu"</a></li>
@@ -50,10 +50,10 @@
                     <li><a href="http://ja.wordpress.org/files/2012/12/wapuu.pdf">Vector PDF File</a></li>
                 </ul>
 
-                <h2>How To Add To Wapuu's Archives By Pull Request</h2>
+                <h2 id="add-archive">How To Add To Wapuu's Archives By Pull Request</h2>
 
                 <ol>
-                    <li>Fork this repository. If you already fork and clone this repository, go to [3].
+                    <li>Fork this repository. If you have already forked and cloned this repository, go to [3].
 
                         <ul>
                             <li><a href="https://github.com/jawordpressorg/wapuu">https://github.com/jawordpressorg/wapuu</a></li>
@@ -65,7 +65,7 @@
                             <li>ex: $ git clone <a href="mailto:git@github.com">git@github.com</a>:tekapo/wapuu.git </li>
                         </ul>
                     </li>
-                    <li>If you already forked and cloned, you can use it.
+                    <li>If you have already forked and cloned it, you can use that one.
 
                         <ul>
                             <li><a href="http://qiita.com/xtetsuji/items/555a1ef19ed21ee42873">http://qiita.com/xtetsuji/items/555a1ef19ed21ee42873</a></li>
@@ -77,36 +77,36 @@
                             <li>$ git checkout gh-pages</li>
                         </ul>
                     </li>
-                    <li>Modify your Wapuu's image format as below and put to "wapuu-archive" directory.
+                    <li>Modify your Wapuu's image format as below and put it under the "wapuu-archive" directory.
                         <ul>
                             <li>Data format: PNG</li>
-                            <li>Size : 300x330px</li>
-                            <li>Transparency : yes</li>
-                            <li>File Name: yourname-wapuu.png (ex: tonkotsu-wapuu.png)</li>
+                            <li>Size: 300x330px</li>
+                            <li>Background Transparency: On</li>
+                            <li>File Name: customname-wapuu.png (ex: tonkotsu-wapuu.png)</li>
                         </ul>
-                    <li>Open index.html and add after last <em><code>&lt;!--Each image end--&gt;</code></em>.
+                    <li>Open index.html and add a new section after the last <em><code>&lt;!--Each image end--&gt;</code></em>.
                         <pre><code>&lt;!--Each image start--&gt;
 &lt;div class="wapuu-each"&gt;
 &lt;a href="http://example.com"&gt;
 &lt;img src="wapuu-archive/XXXXXXX-wapuu.png" alt=""&gt;
 &lt;/a&gt;
-&lt;div class="wapuu-name"&gt;なまえ: XXXXXXわぷー&lt;/div&gt;
-&lt;div class="wapuu-author"&gt;さくしゃ: XXXXXX&lt;/div&gt;
+&lt;div class="wapuu-name"&gt;Name: YOUR_WAPUU_NAME&lt;/div&gt;
+&lt;div class="wapuu-author"&gt;Author: AUTHOR_NAME&lt;/div&gt;
 &lt;/div&gt;
 &lt;!--Each image end--&gt;
 </code></pre>
                     </li>
-                    <li>Commit and Push</li>
-                    <li>Send pull request from your repository.</li>
+                    <li>Commit and Push.</li>
+                    <li>Send a pull request from your repository.</li>
                 </ol>
 
                 <h2>
                     <a name="%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9" class="anchor" href="#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9"><span class="octicon octicon-link"></span></a>License
                 </h2>
 
-                <p>Wappu is licensed under GNU General Public License v2 or later. It's same as WordPress software. You can use in a plugin or theme.</p>
+                <p>Wapuu is licensed under GNU General Public License v2 or later. It's same as WordPress software. You can use in a plugin or theme.</p>
 
-                <p>Wappu's copyright is reserved by Kazuko Kaneuchi.</p>
+                <p>Wapuu's copyright is reserved by Kazuko Kaneuchi.</p>
             </section>
         </div>
 
