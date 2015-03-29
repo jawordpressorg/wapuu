@@ -17,6 +17,6 @@ This is the SVG file of "わぷー(Wapuu)".
 "わぷー(Wapuu)" is ja.wordpress.org official character.
 "わぷー(Wapuu)" was designed by [Kazuko Kaneuchi](http://blog.cgfm.jp/mutsuki/) under GPL v2 license or any later version.
 
-- [Wapuu arichive page](http://jawordpressorg.github.io/wapuu/)
+- [Wapuu archive page](http://jawordpressorg.github.io/wapuu/)
 - [Wapuu FAQ](http://jawordpressorg.github.io/wapuu/faq_en.html)
 - [How To Add To Wapuu's Archives By Pull Request](http://jawordpressorg.github.io/wapuu/faq_en.html#add-archive)
