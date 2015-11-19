@@ -5,8 +5,7 @@
 #forkme_banner {
   padding: 10px 20px;
   background-image: none;
-  background-color: #0090ff;
-}
+  background-color: #0090ff; }
 
 .faq-english {
   display: block;
@@ -15,32 +14,30 @@
   z-index: 10;
   color: #fff;
   font-weight: 700;
-  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
   padding: 10px 20px;
   background-image: none;
-  background-color: #00dd90;
-}
+  background-color: #00dd90; }
 
 .inner {
-  max-width: 700px;
-}
+  max-width: 700px; }
 
 #main_content {
   width: 100%;
-  overflow: auto;
-}
-#main_content .wapuu-each:nth-child(even) {
-  float: right;
-}
+  overflow: auto; }
+  #main_content .wapuu-each:nth-child(even) {
+    float: right; }
 
 .wapuu-each {
   float: left;
-  height: 500px;
-}
-.wapuu-each img {
-  width: 300px;
-  border: none;
-  box-shadow: none;
-}
+  margin-bottom: 50px; }
+  .wapuu-each img {
+    width: 300px;
+    border: none;
+    box-shadow: none; }
+  .wapuu-each:nth-child(2n+1) {
+    clear: both; }
+
+/*# sourceMappingURL=additional.css.map */
