@@ -38,10 +38,13 @@
 
 .wapuu-each {
     float: left;
-    height: 500px;
+    margin-bottom: 50px;
     img {
         width: 300px;
         border: none;
         box-shadow: none;
+    }
+    &:nth-child(2n+1){
+        clear:both;
     }
 }
