@@ -30,7 +30,7 @@
                 <h2>
                     <a name="%E3%82%8F%E3%81%B7%E3%83%BC%E3%81%A8%E3%81%AF" class="anchor" href="#%E3%82%8F%E3%81%B7%E3%83%BC%E3%81%A8%E3%81%AF"><span class="octicon octicon-link"></span></a>「わぷー」とは?</h2>
 
-                <p>「わぷー（Wapuu）」は、ja.wordpress.org の公式キャラクターです。</p>
+                <p>「わぷー (Wapuu)」は、ja.wordpress.org の公式キャラクターです。</p>
 
                 <ul>
                     <li><a href="http://ja.wordpress.org/about-wp-ja/wapuu/">WordPress › 日本語 « 日本公式キャラクター「わぷー」</a></li>
@@ -41,20 +41,23 @@
                 </h2>
 
                 <ul>
-                    <li>SVG 形式ファイル: <a href="http://jawordpressorg.github.io/wapuu/wapuu_original.svg">wapuu_original.svg</a>
+                    <li>SVG 形式ファイル: <a href="http://jawordpressorg.github.io/wapuu/wapuu-original/wapuu-original.svg">wapuu_original.svg</a>
                         <ul>
-                            <li>(もしくはこのサイトのGitHubリポジトリにも含まれています)</li>
-                        </ul>  
+                            <li>(もしくはこのサイトの GitHub リポジトリにも含まれています)</li>
+                        </ul>
                         </li>
-                    <li><a href="http://ja.wordpress.org/files/2011/09/wapuu.png">PNG 画像（378×382 px）</a></li>
-                    <li><a href="http://ja.wordpress.org/files/2012/12/wapuu.pdf">ベクター形式 PDF ファイル</a></li>
+                    <li><a href="http://jawordpressorg.github.io/wapuu/wapuu-original/wapuu-original.png">PNG 画像（338×372 px）</a></li>
+                    <li><a href="http://jawordpressorg.github.io/wapuu/wapuu-original/wapuu-original.pdf">ベクター形式 PDF ファイル</a></li>
                 </ul>
-
-                <h2>わぷーアーカイブに追加する方法</h2>
+                <p>上記ファイルがカスタマイズしにくい場合は、最初のバージョンの画像ファイルを試すといいかもしれません。</p>
+                <ul>
+                  <li><a href="https://github.com/jawordpressorg/wapuu/tree/gh-pages/wapuu-original-first-ver/">わぷーオリジナル画像ファイルの最初のバージョン</a></li>
+                </ul>
+                <h2 id="add-archive">わぷーアーカイブに追加する方法</h2>
 
                 <ul>
                     <li>GitHubからプルリクエストを送る場合は以下の「GitHubからプルリクエストを送るには」を参考にしてください。</li>
-                    <li>プルリクエスト以外での追加ご希望の場合は、以下のフォーマットの画像を準備し、その旨<a href="https://ja.forums.wordpress.org/forum/6">WordPress日本語フォーラム</a>へお知らせください。
+                    <li>プルリクエスト以外での追加ご希望の場合は、以下のフォーマットの画像を準備し、その旨とメッセージ内に「wapuu」と入れて、<a <a href="https://ja.forums.wordpress.org/forum/6">WordPress日本語フォーラム</a>へお知らせください。
                         <ul>
                             <li>ファイル形式: PNG</li>
                             <li>大きさと背景: 300x330px、背景透過</li>
@@ -64,35 +67,34 @@
                 </ul>
                 <p></p>
 
-                <h3>GitHubからプルリクエストを送るには</h3>
-                <p>GUIアプリケーションを使ってGitのリポジトリを操作、プルリクエストを送る方法は現在準備中です。</p>
-                <p>コマンドラインでGitリポジトリを操作してプルリクエストを送る方法は以下を参考にしてください。</p>
+                <h3>GitHub からプルリクエストを送るには</h3>
+                <h4>コマンドラインで Git リポジトリを操作してプルリクエストを送る</h4>
                 <ol>
-                    <li>Githubの「わぷー」のリポジトリをフォークします。すでにフォーク済み、clone済みの場合は「3」へ。
+                    <li>Github の「わぷー」のリポジトリをフォークします。すでにフォーク済み、clone 済みの場合は「3」へ。
 
                         <ul>
                             <li><a href="https://github.com/jawordpressorg/wapuu">https://github.com/jawordpressorg/wapuu</a></li>
                         </ul>
                     </li>
-                    <li>フォークした <em>自分の</em> リポジトリをローカルにcloneします
+                    <li>フォークした <em>自分の</em> リポジトリをローカルに clone します
 
                         <ul>
                             <li>例: $ git clone <a href="mailto:git@github.com">git@github.com</a>:tekapo/wapuu.git </li>
                         </ul>
                     </li>
-                    <li>フォーク、clone済みの場合は元のリポジトリに追従します
+                    <li>フォーク、clone 済みの場合は元のリポジトリに追従します
 
                         <ul>
                             <li><a href="http://qiita.com/xtetsuji/items/555a1ef19ed21ee42873">http://qiita.com/xtetsuji/items/555a1ef19ed21ee42873</a></li>
                         </ul>
                     </li>
-                    <li>gh-pagesブランチをcheckoutします。
+                    <li>gh-pages ブランチを checkout します。
 
                         <ul>
                             <li>$ git checkout gh-pages</li>
                         </ul>
                     </li>
-                    <li>わぷーアーカイブに追加するための画像を以下のフォーマットで作成し、wapuu-archiveフォルダーに追加します。
+                    <li>わぷーアーカイブに追加するための画像を以下のフォーマットで作成し、wapuu-archive フォルダーに追加します。
                         <ul>
                             <li>ファイル形式: PNG</li>
                             <li>大きさと背景: 300x330px、背景透過</li>
@@ -110,9 +112,40 @@
 &lt;!--Each image end--&gt;
 </code></pre>
                     </li>
-                    <li>commit、pushします。</li>
-                    <li>自分のGithubページからプルリクエストを送ります</li>
+                    <li>commit、push します。</li>
+                    <li>自分の Github ページからプルリクエストを送ります</li>
                 </ol>
+                <h4>SourceTreeを使ってプルリクエストを送る</h4>
+<ol>
+	<li>Github の「わぷー」のリポジトリをフォークします。すでにフォーク済み、clone 済みの場合は「3」へ。
+	<img src="images/faq_st/step1.png" alt="step1" width="680"></li>
+	<li>フォークした <em>自分の</em> リポジトリをローカルに clone します。
+	<img src="images/faq_st/step2.png" alt="step2" width="400"></li>
+	<li>フォーク、clone 済みの場合は元のリポジトリに追従します。
+	<img src="images/faq_st/step3.png" alt="step3" width="680"></li>
+	<li>作業用ブランチ（ここではwck-wapuu）を checkout します。
+	<img src="images/faq_st/step4.png" alt="step4" width="680"></li>
+	<li>わぷーアーカイブに追加するための画像を以下のフォーマットで作成し、wapuu-archive フォルダーに追加します。
+                        <ul>
+                            <li>ファイル形式: PNG</li>
+                            <li>大きさと背景: 300x330px、背景透過</li>
+                            <li>ファイル名: 任意の半角英数字-wapuu.png (例: tonkotsu-wapuu.png)</li></ul></li>
+                    <li>index.htmlの一番最後の<code>&lt;!--Each image end--&gt;</code>下に以下を追加します。
+                        <pre><code>&lt;!--Each image start--&gt;
+&lt;div class="wapuu-each"&gt;
+&lt;a href="http://example.com"&gt;
+&lt;img src="wapuu-archive/XXXXXXX-wapuu.png" alt=""&gt;
+&lt;/a&gt;
+&lt;div class="wapuu-name"&gt;なまえ: XXXXXXわぷー&lt;/div&gt;
+&lt;div class="wapuu-author"&gt;さくしゃ: XXXXXX&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--Each image end--&gt;
+</code></pre>
+	<img src="images/faq_st/step5.png" alt="step5" width="680"></li>
+	<li>ステージして、コミットして、プッシュします。
+	<img src="images/faq_st/step7.png" alt="step7" width="680"></li>
+	<li>自分の Github ページにアクセスして「プルリクエスト」ボタンからプルリクエストを送ります。</li>
+</ol>
 
                 <h2>
                     <a name="%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9" class="anchor" href="#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9"><span class="octicon octicon-link"></span></a>ライセンス
