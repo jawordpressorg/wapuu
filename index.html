@@ -64,7 +64,9 @@
         .controller('myCtrl', ['$scope', 'wapuu', function ($scope, wapuu) {
             $scope.wapuus = [];
             wapuu.getdata(function (res) {
-                $scope.wapuus = res;
+                $scope.wapuus = res.sort(function() {
+                  return .5 - Math.random();
+                });
             });
         }]);
         </script>
